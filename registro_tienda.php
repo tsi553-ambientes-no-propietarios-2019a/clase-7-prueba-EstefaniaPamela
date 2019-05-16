@@ -4,36 +4,34 @@
 
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>PRUEBA</title> 
+    <meta charset="UTF-8">
+    <title>REGISTRO MI TIENDA</title>
 </head>
 <body>
-	<center>
-	  <h2>REGISTRO DE TIENDA</h2>
-	<form method="POST" action="PHP/index.php">
-                           
-                           <input type="text"  name="tienda" placeholder="nombre de tienda">
-                           <br>
-                           <br>
-                            <input type="text"  name="direccion" placeholder="direccion"> 
-                           <br>
-                           <br>
-                           <input type="text"  name="usuario" placeholder="usuario">
-                           <br>
-                           <br>
-                           <input type="password"  name="password" placeholder="contraseña">
-                           <br>
-                           <br>
-                           <input type="password"  name="password2" placeholder="confirmar">
-                           <br>
-                           <br>
-                            <button value="submit">REGISTRAR </button> 
-                           <br>
-                           <br>
-                        </form>
-               </center>
+	<CENTER>
+<h1>REGISTRO DE TIENDA</h1>
+<form action="validar.php" method = "post">
+<br>
+ <br>
+<p>Nombre de la Tienda:<input type="text" name="nombretienda" placeholder="nombre de tienda">
+ </p>
+<br>
+ <br>
+<p>Usuario:<input type="text" name="nombreusuario" placeholder="usuario"> </p>
 
-	</body>
-	</html>
+<br>
+ <br>
+<p>Contraseña: <input type="password" name="password" placeholder="contraseña">
+</p>
+<br>
+ <br>
+<p>Repetir Contraseña:<input type="password" name="checkPass" placeholder="confirmar contraseña" >
+ </p>
+<br>
+ <br>
+<button>Aceptar</button>
+</form>
+</CENTER>
+</body>
+</html>

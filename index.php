@@ -1,28 +1,32 @@
-<?php
-
-?>
-
-?>
 <!DOCTYPE html>
-<html>
-
+<html >
 <head>
-    <meta charset="utf-8">
-    <title>PRUEBA</title> 
+    <meta charset="UTF-8">
+    <title>Inicio sesion</title>
 </head>
 <body>
-	  <h2>Registro</h2>
-	<form method="POST" action="PHP/login.php">
-                            <input type="text"  
-                            name="usuario" placeholder="usuario"> <br><br>
-                            <input type="password"  
-                            name="password" placeholder="contraseña"><br><br>
-                            <input type="text"  
-                            name="usuario" placeholder="direccion"> <br><br>
-                            <input type="text"  
-                            name="tienda" placeholder="nombre de tienda"><br><br>
-                            <input type="submit"  value="Entrar">
-                        </form>
+	<center>
+<p>Inicio de Sesión</p>
+<form action="validar1.php" method = "post">
+ <br>
+ <br>
+<p>Usuario: </p>
+<input type="text" name="userName" required="Usuario">
+<br>
+ <br>
 
-	</body>
-	</html>
+<p>Clave: </p>
+<input type="password" name="password" placeholder="contraseña">
+<br>
+ <br>
+
+<button>INGRESAR</button>
+<br>
+ <br>
+<a href="registro_tienda.php">Registrar mi tienda</a>
+<br>
+ <br>
+</form>
+</center>
+</body>
+</html>
